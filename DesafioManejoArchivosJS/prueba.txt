@@ -1,0 +1,37 @@
+[
+  {
+    "nombre": "Purina",
+    "precio": 3500,
+    "categoria": "Alimento",
+    "descripcion": "Alimento para perros",
+    "id": 1
+  },
+  {
+    "nombre": "Purina",
+    "precio": 3500,
+    "categoria": "Alimento",
+    "descripcion": "Alimento para perros",
+    "id": 2
+  },
+  {
+    "nombre": "Royal Canin",
+    "precio": 3500,
+    "categoria": "Alimento",
+    "descripcion": "Alimento para perros",
+    "id": 3
+  },
+  {
+    "nombre": "Royal Canin",
+    "precio": 3500,
+    "categoria": "Alimento",
+    "descripcion": "Alimento para perros",
+    "id": 4
+  },
+  {
+    "nombre": "Royal Canin",
+    "precio": 3500,
+    "categoria": "Alimento",
+    "descripcion": "Alimento para perros",
+    "id": 5
+  }
+]
