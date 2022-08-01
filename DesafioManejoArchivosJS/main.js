@@ -1,7 +1,7 @@
 const Contenedor = require("./contenedor");
 
 
-const contenedor = new Contenedor('./prueba.txt')
+const contenedor = new Contenedor('./productos.txt')
 
 // contenedor.save({ nombre: 'Royal Canin', precio: 3500, categoria: 'Alimento', descripcion: 'Alimento para perros' })
 

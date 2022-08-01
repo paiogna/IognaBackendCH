@@ -1,0 +1,24 @@
+{
+  "name": "iognabackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "desafio1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paiogna/IognaBackendCH.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paiogna/IognaBackendCH/issues"
+  },
+  "homepage": "https://github.com/paiogna/IognaBackendCH#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

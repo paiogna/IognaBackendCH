@@ -35,12 +35,26 @@ async getById(id){
     }
 }
 
+async getByIdRandom(){
+    try {
+        let dataArch = await fs.promises.readFile(this.ruta, 'utf8')
+        let dataArchParse = JSON.parse(dataArch)
+        let producto = dataArchParse[Math.floor(Math.random() * dataArchParse.length)]               
+        console.log(producto)
+        return producto
+        }           
+    catch (error) {
+        console.log(error)
+    }
+}
+
 async getAll(){
     try {
         let dataArch = await fs.promises.readFile(this.ruta, 'utf8')
         let dataArchParse = JSON.parse(dataArch)
         if (dataArchParse.length) {
-            console.log(dataArchParse)              
+            // console.log(dataArchParse)              
+            return dataArchParse
         } else {
             console.log('No hay productos')
         }
